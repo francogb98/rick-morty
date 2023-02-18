@@ -1,0 +1,13 @@
+.fondo {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+
+@media screen and (max-width: 800px) {
+  .fondo {
+    flex-direction: row;
+    margin-top: 200px;
+  }
+}
